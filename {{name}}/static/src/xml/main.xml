@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+  <!-- QWEB Templates for UI Widgets and views -->
+
+  <!--
+
+  <t t-name="{{name}}View">
+    <div class="oe_{{name}}_view">
+      <div class="oe_{{name}}_buttons"/>>
+      <table class="oe_{{name}}_groups">
+        <tr class="oe_{{name}}_groups_headers">
+          <td class="oe_{{name}}_dummy_cell"><div/></td>
+        </tr>
+        <tr class="oe_{{name}}_dummy_row">
+        </tr>
+      </table>
+    </div>
+  </t>
+
+  -->
+
+</templates>

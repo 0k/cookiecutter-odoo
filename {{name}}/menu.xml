@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <!-- This file should contain only menuitem elements -->
+
+        <!-- Example:
+
+        <menuitem action="action_order_report_all"
+                  id="menu_report_product_all"
+                  parent="base.next_id_64"
+                  sequence="10"/>
+
+        -->
+
+
+    </data>
+</openerp>
