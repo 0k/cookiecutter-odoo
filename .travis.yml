@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.4"
+  - "2.7"
+install:
+  - pip install git+https://github.com/0k/cookiecutter
+  - cp tests/samplerc ~/.cookiecutterrc
+script:
+  - cur_path=$PWD ; cd /tmp ; cookiecutter "$cur_path" --no-input
+  - cd /tmp/my_odoo_module && find .
