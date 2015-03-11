@@ -1,0 +1,11 @@
+rec:
+  import:
+    dispatch:
+      ir.ui.menu: menu.xml
+      ir.actions.act_window: actions/act_window.xml
+      ir.actions.client: actions/client.xml
+      ir.actions.actions: actions/action.xml
+      ir.actions.act_url: actions/act_url.xml
+      ir.actions.server: actions/server.xml
+      ir.ui.views: views/view.xml
+      '*': 'data/%(_model_underscore)s.xml'
