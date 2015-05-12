@@ -2,13 +2,14 @@
 cookiecutter-odoo
 =================
 
-.. image:: http://img.shields.io/travis/vaab/colour/master.svg?style=flat
-   :target: https://travis-ci.org/vaab/colour/
+.. image:: http://img.shields.io/travis/0k/cookiecutter-odoo/master.svg?style=flat
+   :target: https://travis-ci.org/0k/cookiecutter-odoo/
    :alt: Travis CI build status
 
 A modified cookiecutter_ template for OpenERP/Odoo.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
+
 
 Maturity
 --------
