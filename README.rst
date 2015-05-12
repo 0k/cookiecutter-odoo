@@ -14,8 +14,8 @@ A modified cookiecutter_ template for OpenERP/Odoo.
 Maturity
 --------
 
-Alpha release. Uses a modified version of cookiecutter_ templating
-system. To install this version do::
+Alpha release. This template uses a modified version of cookiecutter_ templating
+system. To install this modified version, please do::
 
     pip install git+https://github.com/0k/cookiecutter
 
@@ -61,7 +61,8 @@ Branch selection can be done with ``--checkout``::
 
 For more info about cookiecutter_ options and usage, please check `cookiecutter documentation`_.
 
-Please bear in mind that we are using a fork.
+Please bear in mind that we are using a (minor) fork, that should
+remain compatible with all cookiecutter's features.
 
 .. _cookiecutter documentation: http://cookiecutter.readthedocs.org/
 
