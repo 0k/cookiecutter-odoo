@@ -1,31 +1,31 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': '{{name}}',
-    'version': '{{version}}',
-    'author': '{{author}}',
-    'category': '{{category}}',
-    'complexity': 'normal',
+    "name": "{{name}}",
+    "version": "{{version}}",
+    "author": "{{author}}",
+    "category": "{{category}}",
+    "complexity": "normal",
 {%- if website %}
-    'website': '{{ website }}',
+    "website": "{{ website }}",
 {%- endif %}
-    'data': [
-        'data/templates.xml',
-        'security/security.xml',
-        'security/ir.model.access.csv',
-        'views/view.xml',
-        'actions/act_window.xml',
-        'menu.xml',
-        'data/data.xml',
+    "data": [
+        "data/templates.xml",
+        "security/security.xml",
+        "security/ir.model.access.csv",
+        "views/view.xml",
+        "actions/act_window.xml",
+        "menu.xml",
+        "data/data.xml",
     ],
-    'depends': [
-        'base',
+    "depends": [
+        "base",
     ],
-    'qweb': [
+    "qweb": [
         "static/src/xml/*.xml",
     ],
-    'test': [
+    "test": [
     ],
-    'installable': True,
-    'auto_install': False,
+    "installable": True,
+    "auto_install": False,
 }
