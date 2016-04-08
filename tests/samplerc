@@ -1,9 +1,8 @@
 default_context:
     name: my_odoo_module
-    author: Valentin Lab
-    email: "valentin.lab@kalsyto.org"
-    website: http://www.example.com
-    github_username: "vaab"
-    license_years: 2015
+    author: Sudokeys
+    email: "test@sudokeys.com"
+    website: http://www.sudokeys.com
+    github_username: "sudokeys"
+    license_years: 2016
     version: "0.3"
-

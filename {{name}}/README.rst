@@ -4,4 +4,4 @@
 
 {{description}}
 
-This is an OpenERP/Odoo addons.
+This is an Odoo addons.

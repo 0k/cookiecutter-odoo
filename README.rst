@@ -33,7 +33,7 @@ Features
 
 * OpenERP/Odoo version:
 
-  - Odoo 8.0
+  - Odoo 9.0
 
 * Include:
 
@@ -103,7 +103,7 @@ would show you how to deal with your issue.
 License
 =======
 
-Copyright (c) 2012-2015 Valentin Lab.
+Copyright (c) 2012-2015 Valentin Lab, Nicolas JEUDY.
 
 Licensed under the `BSD License`_.
 

@@ -1,22 +1,17 @@
-openerp.{{name}} = function (instance) {
+odoo.define('{{name}}.mywidget', function(require) {
 
-    var _t = instance.web._t,
-    _lt = instance.web._lt;
-    var QWeb = instance.web.qweb;
+    "use strict";
 
+    // var ajax = require('web.ajax');
 
-    // instance.web.views.add('kanban', 'instance.{{name}}.MyView');
+    var core = require('web.core');
+    // var Model = require('web.Model');
+    // var Widget = require('web.Widget');
+    // var common = require('web.form_common');
+    // var formats = require('web.formats');
+    // var session = require('web.session');
 
-    // instance.{{name}}.MyView = instance.web.View.extend({
-    //     template: "MyView",
-    //     display_name: _lt('MyView'),
-    //     default_nr_columns: 1,
-    //     view_type: "myview",
-    //     quick_create_class: "instance.{{name}}.QuickCreate",
-    //     number_of_color_schemes: 10,
-    //     init: function (parent, dataset, view_id, options) {
-    //         this._super(parent, dataset, view_id, options);
-    //     }
-    // });
+    var QWeb = core.qweb;
+    var _lt = core._lt;
 
 };
