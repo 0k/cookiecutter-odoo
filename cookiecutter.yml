@@ -14,7 +14,7 @@ context:
     regex: '[^ ]+'
   description:
     help: Short description of your module
-    default: "{{name}} OpenERP/Odoo module."
+    default: "{{name}} Odoo module."
   category:
     help: "Module category (ie: Hidden, Tools, Website, ...)"
     default: Tools
@@ -23,5 +23,4 @@ context:
     regexp: '[0-9,- ]+'
   version:
     help: "Module Version (ie: 0.1)"
-    default: "0.1"
-
+    default: "10.0.0.1.0"

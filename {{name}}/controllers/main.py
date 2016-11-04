@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import logging
-import openerp
-import openerp.modules.registry
-from openerp.modules import get_module_resource
-from openerp.tools.translate import _
-from openerp import http
+import odoo
+import odoo.modules.registry
+from odoo.modules import get_module_resource
+from odoo.tools.translate import _
+from odoo import http
 
-from openerp.http import request, serialize_exception as _serialize_exception
+from odoo.http import request, serialize_exception as _serialize_exception
 
 _logger = logging.getLogger(__name__)
 

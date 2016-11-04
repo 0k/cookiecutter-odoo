@@ -2,9 +2,9 @@
 
 # 1 : imports from python lib
 
-# 2 : imports from openerp
-from openerp import models, fields, api, _
-from openerp.exceptions import Warning
+# 2 : imports from odoo
+from odoo import models, fields, api, _
+from odoo.exceptions import Warning
 # 3 : imports from odoo modules
 
 _logger = logging.getLogger(__name__)
