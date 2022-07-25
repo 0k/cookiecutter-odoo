@@ -1,5 +1,5 @@
-## package holder
+# -*- coding: utf-8 -*-
 
-import models
-# import wizard
-# import test
+from . import models
+# from . import controllers
+# from . import wizard

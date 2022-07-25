@@ -2,6 +2,6 @@
 {{name}}
 =====================
 
-{{description}}
+{{summary}}
 
-This is an Odoo addons.
+This is an Odoo addon.

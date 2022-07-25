@@ -8,19 +8,21 @@ context:
   author:
     help: "Author Name (ie: John Doe)"
     regex: '.+'
+  company:
+    help: "Company Name (ie: Microsoft)"
+    regex: '.+'
   website:
     help: "Website (ie: http://www.yourwebsite.com)"
-    default:
     regex: '[^ ]+'
-  description:
+  issue_url:
+    help: "Issue URL (ie: https://github.com/microsoft/yay/issues)"
+    regex: '[^ ]+'
+  summary:
     help: Short description of your module
-    default: "{{name}} Odoo module."
   category:
     help: "Module category (ie: Hidden, Tools, Website, ...)"
-    default: Tools
   license_years:
-    help: "License Years (ie: 2015, or 2012-2014)"
-    regexp: '[0-9,- ]+'
+    help: "License Years (ie: 2022, or 2021-2022)"
+    regexp: '[0-9,-]+'
   version:
     help: "Module Version (ie: 0.1)"
-    default: "10.0.0.1.0"

@@ -1,4 +1,1 @@
-## package holder
-
-import main
-
+# -*- coding: utf-8 -*-
